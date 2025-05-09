@@ -1,0 +1,38 @@
+{
+  "name": "wtfc-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+<<<<<<< HEAD
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist --dotfiles"
+=======
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist --no-history --dotfiles"
+>>>>>>> b7e80c23802a8e569b3f679f5e90a5d749524546
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+<<<<<<< HEAD
+    "react-router-dom": "^6.14.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "gh-pages": "^5.0.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.2",
+=======
+    "react-router-dom": "^6.21.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.1.0",
+    "gh-pages": "^6.1.0",
+>>>>>>> b7e80c23802a8e569b3f679f5e90a5d749524546
+    "vite": "^4.5.0"
+  }
+}
